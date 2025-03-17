@@ -43,10 +43,10 @@ h1{
 }
 
 .profile-image {
-    width: 97%;
+    width: 80%;
     height: auto;
     margin-right: 20px;
-    margin-top: 5%;
+    margin-top: -5%;
     margin-bottom: auto;
 }
 h2{
@@ -156,6 +156,7 @@ a{
 .maydayz-container {
     text-align: center; 
     margin-top: 20px; 
+    font-display: uppercase;
 }
 .maydayz-picture{
     display: block;
@@ -221,4 +222,118 @@ a{
     display: inline-block; 
     margin: 0;
     padding: 0;
+}
+
+.project2{
+    border: gray;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    box-shadow: 5px 5px 5px #000;
+    width: 45%;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.project2-picture{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -3%;
+    margin-top: -2%;
+    width: 20%;
+    height: 20%;
+}
+
+.project2P{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.P2-Project2{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.project2-container {
+    text-align: center; 
+    margin-top: 20px; 
+    font-display: uppercase;
+}
+
+.project2-button {
+    background-color: darkgrey; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+.project2-button:hover {
+    background-color: black; 
+}
+.project2-button:active {
+    background-color: darkgrey; 
+}
+.project3{
+    border: gray;
+    border-radius: 10px;
+    background-color: blue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    box-shadow: 5px 5px 5px #000;
+    width: 45%;
+    margin-right: auto;
+    justify-content: center;
+}
+.P3-Project{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.project3-picture{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -3%;
+    margin-top: -2%;
+    width: 20%;
+    height: 20%;
+}
+.project3P{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin-top: 6%;
+}
+.project3-container {
+    text-align: center; 
+    margin-top: 20px; 
+    font-display: uppercase;
+}
+.project3-button {
+    background-color: darkgrey; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
