@@ -58,3 +58,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollIndicator = document.querySelector(".scroll-indicator");
+  const deleteIndicator = document.querySelector(".scroll-indicator");
+
+  scrollIndicator.addEventListener("click", function () {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth",
+    });
+  });
+});
