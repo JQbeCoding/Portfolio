@@ -23,6 +23,18 @@
       property="og:description"
       content="Welcome to Ja'Quis Franklin Portfolio"
     />
+    <style>
+      .scroll-appear {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+
+      .scroll-appear.appear {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
   </head>
   <body>
     <h1>WELCOME TO MY WORLD</h1>
@@ -41,7 +53,7 @@
               />
             </div>
             <h2>Ja'Quis Franklin</h2>
-            <p style="text-align: center; font-weight: bold">Charlotte, NC</p>
+            <p>Charlotte, NC</p>
             <p>
               I am a Full Stack Developer with a passion for creating and
               developing web applications. I have experience in HTML, CSS,
@@ -73,62 +85,72 @@
         </div>
       </div>
     </div>
-
-    <h2 class="techsection">Technologies</h2>
-    <div class="tech-container">
-      <img class="tech-picture" src="/assets/images/HTML.svg" alt="HTML" />
-      <img class="tech-picture" src="/assets/images/CSS.svg" alt="CSS" />
-      <img class="tech-picture" src="/assets/images/JS.svg" alt="JavaScript" />
-      <img class="tech-picture" src="/assets/images/Node.svg" alt="Node.js" />
-      <img
-        style="
-          filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg)
-            brightness(90%) contrast(100%);
-        "
-        class="tech-picture"
-        src="/assets/images/Express.svg"
-        alt="Express"
-      />
-      <img
-        class="tech-picture"
-        src="/assets/images/Supabase.svg"
-        alt="Supabase"
-      />
-      <img class="tech-picture" src="/assets/images/Python.svg" alt="Python" />
-      <img class="tech-picture" src="/assets/images/Java.svg" alt="Java" />
-      <img class="tech-picture" src="/assets/images/C++.svg" alt="C++" />
-      <img
-        class="tech-picture"
-        src="/assets/images/Postgres.svg"
-        alt="Postgres"
-      />
+    <div class="scroll-appear">
+      <h2 class="techsection">Technologies</h2>
+      <div class="tech-container">
+        <img class="tech-picture" src="/assets/images/HTML.svg" alt="HTML" />
+        <img class="tech-picture" src="/assets/images/CSS.svg" alt="CSS" />
+        <img
+          class="tech-picture"
+          src="/assets/images/JS.svg"
+          alt="JavaScript"
+        />
+        <img class="tech-picture" src="/assets/images/Node.svg" alt="Node.js" />
+        <img
+          style="
+            filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg)
+              brightness(90%) contrast(100%);
+          "
+          class="tech-picture"
+          src="/assets/images/Express.svg"
+          alt="Express"
+        />
+        <img
+          class="tech-picture"
+          src="/assets/images/Supabase.svg"
+          alt="Supabase"
+        />
+        <img
+          class="tech-picture"
+          src="/assets/images/Python.svg"
+          alt="Python"
+        />
+        <img class="tech-picture" src="/assets/images/Java.svg" alt="Java" />
+        <img class="tech-picture" src="/assets/images/C++.svg" alt="C++" />
+        <img
+          class="tech-picture"
+          src="/assets/images/Postgres.svg"
+          alt="Postgres"
+        />
+      </div>
     </div>
-
-    <div class="col-md-6">
-      <div class="project-wrapper">
-        <div class="project">
-          <h2>PROJECTS</h2>
-        </div>
-        <div class="project1">
-          <h3 class="P1-May">Maydayz</h3>
-          <img
-            class="maydayz-picture"
-            src="/assets/images/Maydayz (64 x 64 px) (Logo).webp"
-            alt="Maydayz"
-            height="50px"
-            width="50px"
-          />
-          <p class="maydayzP">
-            Maydayz is a full stack application that I created using HTML, CSS,
-            JS, Node.js, Express, and Supabase. It is a complete application
-            that allows users to create an account, complete orders, and view a
-            menu. The website is hosted on Netlify and the backend is hosted on
-            render.
-          </p>
-          <div class="maydayz-container">
-            <a href="https://maydayz.com/" target="_blank">
-              <button class="maydayz">Visit Maydayz!!</button></a
-            >
+    <div class="scroll-appear">
+      <div class="col-md-6">
+        <div class="project-wrapper">
+          <div class="project">
+            <h2>PROJECTS</h2>
+          </div>
+          <div class="project1">
+            <h3 class="P1-May">Maydayz</h3>
+            <img
+              class="maydayz-picture"
+              src="/assets/images/Maydayz (64 x 64 px) (Logo).webp"
+              alt="Maydayz"
+              height="50px"
+              width="50px"
+            />
+            <p class="maydayzP">
+              Maydayz is a full stack application that I created using HTML,
+              CSS, JS, Node.js, Express, and Supabase. It is a complete
+              application that allows users to create an account, complete
+              orders, and view a menu. The website is hosted on Netlify and the
+              backend is hosted on render.
+            </p>
+            <div class="maydayz-container">
+              <a href="https://maydayz.com/" target="_blank">
+                <button class="maydayz">Visit Maydayz!!</button></a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -144,6 +166,6 @@
         </p>
       </div>
     </footer>
-    <button id="scrollToTopBtn" title="Go to top">Top</button>
+    <script src="src/js/index.js"></script>
   </body>
 </html>
