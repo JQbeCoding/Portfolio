@@ -196,3 +196,16 @@ a{
     width: 55%;
     margin-right: auto;
 }
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8%; 
+    text-align: center;
+}
+.footer-social-container a {
+    display: inline-block; 
+    margin: 0;
+    padding: 0;
+}
