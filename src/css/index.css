@@ -2,7 +2,6 @@
     font-family: FontA;
     src: url(/assets/fonts/Ricebox\ Allcaps.ttf);
 }
-
 body{
     background-color: #1b1e21;
 }
@@ -12,6 +11,33 @@ body{
     align-items: flex-start; 
     gap: 20px; 
     margin-bottom: 10%; 
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%; 
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+    margin-top: 1vh; 
+    margin-bottom: 1vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tabs{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #343a40;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+.tabs:hover{
+    background-color: blue;
 }
 
 .container{
@@ -406,6 +432,3 @@ a{
     -webkit-transform: rotate(45deg);
     margin-top: 5px;
 }
-
-
-
