@@ -37,3 +37,24 @@ document.addEventListener("DOMContentLoaded", function () {
     this.src = "/assets/images/Founder.webp";
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const animatedTitle = document.getElementById("animated-title");
+  animatedTitle.addEventListener("animationend", function (event) {
+    if (event.animationName === "typing") {
+      animatedTitle.style.width = "auto";
+      animatedTitle.parentElement.style.justifyContent = "center";
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const animatedTitle = document.getElementById("animated-title");
+
+  animatedTitle.addEventListener("animationend", function (event) {
+    if (event.animationName === "typing") {
+      animatedTitle.style.overflow = "visible";
+      animatedTitle.style.whiteSpace = "normal"; // Allow wrapping if needed
+    }
+  });
+});
