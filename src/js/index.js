@@ -25,3 +25,15 @@ document.addEventListener("DOMContentLoaded", function () {
     appearOnScroll.observe(fader);
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const quisPicture = document.querySelector(".quis-picture");
+
+  quisPicture.addEventListener("mouseover", function () {
+    this.src = "/assets/images/quis-silly.svg";
+  });
+
+  quisPicture.addEventListener("mouseout", function () {
+    this.src = "/assets/images/Founder.webp";
+  });
+});
