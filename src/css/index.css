@@ -131,7 +131,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 8%; 
+    margin-top: 5%; 
 }
 .social-container a {
     display: inline-block; 
@@ -159,7 +159,7 @@ a{
 }
 .tech-container{
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 5%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,7 +226,8 @@ a{
     margin-bottom: 5%;
     padding: 5%;
     box-shadow: 5px 5px 5px #000;
-    width: 100vh;
+    width: 50%;
+    margin-right: auto;
     justify-content: center;
 }
 .footer-container{
