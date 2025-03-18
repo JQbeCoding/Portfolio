@@ -2,6 +2,10 @@
     font-family: FontA;
     src: url(/assets/fonts/Ricebox\ Allcaps.ttf);
 }
+@font-face {
+    font-family: FontB;
+    src: url(/assets/fonts/LTSuperior-SemiBold.otf);
+}
 body{
     background-color: #1b1e21;
 }
@@ -247,7 +251,7 @@ a{
 .project2{
     border: gray;
     border-radius: 10px;
-    background-color: green;
+    background-color: #e3e2e2;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
@@ -267,9 +271,9 @@ a{
 }
 
 .project2P{
-    font-family: sans-serif;
+    font-family: FontB;
     font-size: 1.2em;
-    color: #fff;
+    color: black;
     text-align: center;
     margin-top: 6%;
 }
@@ -290,11 +294,11 @@ a{
 }
 
 .project2-button {
-    background-color: darkgrey; 
+    background-color:black; 
     color: white; 
     border: none; 
     padding: 10px 20px; 
-    font-family: sans-serif;
+    font-family:FontB;
     font-size: 1em;
     border-radius: 5px; 
     cursor: pointer; 
@@ -302,7 +306,7 @@ a{
     text-transform: uppercase;
 }
 .project2-button:hover {
-    background-color: black; 
+    background-color: red; 
 }
 .project2-button:active {
     background-color: darkgrey; 

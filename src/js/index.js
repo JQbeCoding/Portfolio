@@ -1,3 +1,4 @@
+//Loading the containers with a delay and stylistic effect
 document.addEventListener("DOMContentLoaded", function () {
   const faders = document.querySelectorAll(".scroll-appear");
 
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Changes the profile picture when hovered
 document.addEventListener("DOMContentLoaded", function () {
   const quisPicture = document.querySelector(".quis-picture");
 
@@ -48,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Adds a typing animation to the title
 document.addEventListener("DOMContentLoaded", function () {
   const animatedTitle = document.getElementById("animated-title");
 
@@ -59,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Scrolls to the next section when the scroll indicator is clicked
 document.addEventListener("DOMContentLoaded", function () {
   const scrollIndicator = document.querySelector(".scroll-indicator");
   const deleteIndicator = document.querySelector(".scroll-indicator");
