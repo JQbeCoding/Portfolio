@@ -25,3 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
     appearOnScroll.observe(fader);
   });
 });
+
+//Goes to the home page when the home button is clicked
+document.addEventListener("DOMContentLoaded", function () {
+  const homeButton = document.querySelector("a[href='/src/html/home.html']");
+
+  homeButton.addEventListener("click", function () {
+    event.preventDefault();
+    document.body.style.transition = "opacity 0.5s ease";
+    document.body.style.opacity = "0";
+
+    setTimeout(function () {
+      window.location.href = "/src/html/home.html";
+    }, 500);
+  });
+});
