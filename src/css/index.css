@@ -17,10 +17,35 @@ body{
     margin-bottom: 10%; 
 }
 .nav{
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-content:space-around;
     align-items: center;
     margin-top: 3%; 
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        margin-top: 5%; 
+    }
+
+    .nav-container {
+        flex-direction: column; 
+        gap: 6vh; 
+    }
+
+    .tabs {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #343a40;
+        border-radius: 10%;
+        text-transform: uppercase;
+    }
 }
 .nav-container{
     display: flex;
@@ -30,6 +55,11 @@ body{
     margin-top: 1vh; 
     margin-bottom: 1vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.scroll-appear{
+    width: 100%;
 }
 .tabs{
     color: white;
@@ -194,6 +224,9 @@ a{
     font-size: 1.2em;
     color: #fff;
     margin-top: 6%;
+    text-align:justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 .maydayz {
     background-color: red; 
@@ -258,16 +291,15 @@ a{
     box-shadow: 5px 5px 5px #000;
     width: 45%;
     margin-left: auto;
-    justify-content: center;
+    justify-content: justify;
 }
 
 .project2-picture{
     display: block;
     margin: 0 auto;
-    margin-bottom: -3%;
-    margin-top: -2%;
-    width: 20%;
-    height: 20%;
+    margin-top: -16%;
+    width: 40%;
+    height: 40%;
 }
 
 .project2P{
@@ -275,7 +307,7 @@ a{
     font-size: 1.2em;
     color: black;
     text-align: center;
-    margin-top: 6%;
+    margin-top: -11%;
 }
 
 .P2-Project2{
@@ -285,6 +317,15 @@ a{
     text-align: center;
     font-weight: bold;
     margin-top: 3%;
+}
+
+.P2-Sox{
+    font-family: FontB;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .project2-container {

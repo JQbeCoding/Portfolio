@@ -62,15 +62,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-//Scrolls to the next section when the scroll indicator is clicked
+//Goes to the home page when the scroll indicator is clicked
 document.addEventListener("DOMContentLoaded", function () {
   const scrollIndicator = document.querySelector(".scroll-indicator");
-  const deleteIndicator = document.querySelector(".scroll-indicator");
 
   scrollIndicator.addEventListener("click", function () {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: "smooth",
-    });
+    document.body.style.transition = "opacity 0.5s ease";
+    document.body.style.opacity = "0";
+
+    setTimeout(function () {
+      window.location.href = "/src/html/home.html";
+    }, 500);
   });
 });

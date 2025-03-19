@@ -27,3 +27,22 @@ body{
     margin-top: 3%;
     text-align: center;
 }
+.homeButton-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 3%;
+}
+.homeButton{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #343a40;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+.homeButton:hover{
+    background-color: #6c757d;
+}
