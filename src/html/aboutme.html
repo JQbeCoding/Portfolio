@@ -18,8 +18,21 @@
     <meta property="og:title" content="Ja'Quis Franklin Portfolio" />
     <link rel="icon" href="/assets/images/Ja’Quis.svg" />
     <title>Who is this guy?</title>
+    <style>
+      .scroll-appear {
+          opacity: 0;
+          transform: translateY(20px);
+          transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+
+      .scroll-appear.appear {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  </style>
   </head>
   <body>
+  <div class ="scroll-appear">
     <div class="aboutme-container">
       <div class="aboutme">
         <h1 class="aboutme-header">Who is this guy?</h1>
@@ -62,5 +75,7 @@
     </div>
       </div>
     </div>
+  </div>
+  <script src="/src/js/aboutme.js?v=1.0"></script>
   </body>
 </html>

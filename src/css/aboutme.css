@@ -1,5 +1,7 @@
 body{
     background-color:  #1b1e21;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 .aboutme-container{
     display: flex;

@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Adds a typing animation to the title
 document.addEventListener("DOMContentLoaded", function () {
   const animatedTitle = document.getElementById("animated-title");
   animatedTitle.addEventListener("animationend", function (event) {
@@ -72,6 +73,51 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(function () {
       window.location.href = "/src/html/home.html";
+    }, 500);
+  });
+});
+
+//Scrolls to the tech section when the tech button is clicked
+document.addEventListener("DOMContentLoaded", function () {
+  const techButton = document.querySelector("a[href='#tech']");
+
+  techButton.addEventListener("click", function () {
+    event.preventDefault();
+    const techSection = document.getElementById("tech");
+    techSection.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
+});
+
+//Scrolls to the project section when the project button is clicked
+document.addEventListener("DOMContentLoaded", function () {
+  const techButton = document.querySelector("a[href='#projectz']");
+
+  techButton.addEventListener("click", function () {
+    event.preventDefault();
+    const techSection = document.getElementById("projectz");
+    techSection.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
+});
+
+//Goes to the about page when the about button is clicked
+document.addEventListener("DOMContentLoaded", function () {
+  const aboutButton = document.querySelector(
+    "a[href='/src/html/aboutme.html']"
+  );
+
+  aboutButton.addEventListener("click", function () {
+    event.preventDefault();
+    document.body.style.transition = "opacity 0.5s ease";
+    document.body.style.opacity = "0";
+
+    setTimeout(function () {
+      window.location.href = "/src/html/aboutme.html";
     }, 500);
   });
 });

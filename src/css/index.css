@@ -178,7 +178,10 @@ a{
     margin: 0;
     padding: 0;
 }
-
+#tech{
+    padding-top: 100px;
+    margin-top: -100px;
+}
 .P1-May{
     font-family: FontA;
     font-size: 1.5em;
@@ -204,7 +207,11 @@ a{
     width: 5%;
     height: auto;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 12%;
+    cursor: pointer;
+}
+.tech-picture:hover{
+    filter: grayscale(100%);
 }
 .maydayz-container {
     text-align: center; 
