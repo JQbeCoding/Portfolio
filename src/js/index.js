@@ -121,3 +121,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 500);
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const contactButton = document.querySelector(
+    "a[href='/src/html/contacts.html']"
+  );
+
+  contactButton.addEventListener("click", function () {
+    event.preventDefault();
+    document.body.style.transition = "opacity 0.5s ease";
+    document.body.style.opacity = "0";
+
+    setTimeout(function () {
+      window.location.href = "/src/html/contacts.html";
+    }, 500);
+  });
+});
