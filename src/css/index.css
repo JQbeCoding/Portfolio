@@ -354,15 +354,15 @@ a{
     text-transform: uppercase;
 }
 .project2-button:hover {
-    background-color: red; 
+    background-color: black; 
 }
 .project2-button:active {
-    background-color: darkgrey; 
+    background-color: red; 
 }
 .project3{
-    border: gray;
+    border: red;
     border-radius: 10px;
-    background-color: blue;
+    background-color: white;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
@@ -372,25 +372,26 @@ a{
     justify-content: center;
 }
 .P3-Project{
-    font-family: sans-serif;
-    font-size: 1.5em;
-    color: white;
+    font-family: FontB;
+    font-size: 2.1em;
+    color: black;
     text-align: center;
     font-weight: bold;
     margin-top: 3%;
+    text-transform: uppercase;
 }
 .project3-picture{
     display: block;
     margin: 0 auto;
     margin-bottom: -3%;
     margin-top: -2%;
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
 }
 .project3P{
     font-family: sans-serif;
     font-size: 1.2em;
-    color: #fff;
+    color: black;
     text-align: center;
     margin-top: 6%;
 }
@@ -400,7 +401,7 @@ a{
     text-transform: uppercase;
 }
 .project3-button {
-    background-color: darkgrey; 
+    background-color: red; 
     color: white; 
     border: none; 
     padding: 10px 20px; 
@@ -410,6 +411,11 @@ a{
     cursor: pointer; 
     transition: background-color 0.3s ease; 
     text-transform: uppercase;
+}
+
+.project3-button:hover
+{
+    background-color: black;
 }
 
 #animated-title {
